@@ -1,0 +1,66 @@
+body {
+    height: 100%;
+    max-width:100%;
+    background-color: rgb(177, 137, 86);
+}
+p{
+    position: relative;
+    text-align: center;
+}
+
+.dif{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}
+
+.settings{
+    position:absolute;
+    top: 60%;
+    left:46%;
+    height: 4%;
+    width: 8%;
+}
+.startBtn{
+    border-radius: 3vw;
+    height: 4vw;
+    width: 8vw;
+}
+
+.circle_3{
+    position:absolute;
+    background-color: blue;
+    border-radius:50%;
+    height: 35px;
+    width: 35px;
+}
+
+.circle_2{
+    position:absolute;
+    background-color: blue;
+    border-radius:50%;
+    height: 45px;
+    width: 45px;
+}
+
+.circle_1{
+    position:absolute;
+    background-color: blue;
+    border-radius:50%;
+    height: 55px;
+    width: 55px;
+}
+
+.score{
+    font-size: 24px;
+    color:bisque;
+}
+
+.endMenu{
+    background-color:aqua;
+    height: 98vh;
+    width: 99vw;
+    position: fixed;
+    text-align: center;
+    line-height: 90vh;
+    font-size: 100px;
+}
